@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171E9619411D4D0E4CF18ACD /* Pods_MillionerGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2415D7A6210218323C0A0B06 /* Pods_MillionerGame.framework */; };
+		9654CDCB2506F8DC00ACCD58 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654CDCA2506F8DC00ACCD58 /* Question.swift */; };
+		9654CDCD2506F9EF00ACCD58 /* RecordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654CDCC2506F9EF00ACCD58 /* RecordsTableViewController.swift */; };
+		9654CDCF2506FA1200ACCD58 /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654CDCE2506FA1200ACCD58 /* RecordsTableViewCell.swift */; };
+		96569907250144CC00CDCD20 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96569906250144CC00CDCD20 /* Game.swift */; };
+		965699092501469F00CDCD20 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965699082501469F00CDCD20 /* GameViewController.swift */; };
+		965B6B8C251158AF0086DDEF /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965B6B8B251158AF0086DDEF /* StartScreenViewController.swift */; };
+		965B6B8F2511AEA90086DDEF /* RecordsCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965B6B8E2511AEA90086DDEF /* RecordsCaretaker.swift */; };
+		965B6B912511AF1A0086DDEF /* GameSessionCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965B6B902511AF1A0086DDEF /* GameSessionCaretaker.swift */; };
+		965F8B112500755F00835311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F8B102500755F00835311 /* AppDelegate.swift */; };
+		965F8B132500755F00835311 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F8B122500755F00835311 /* SceneDelegate.swift */; };
+		965F8B182500755F00835311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965F8B162500755F00835311 /* Main.storyboard */; };
+		965F8B1A2500756000835311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965F8B192500756000835311 /* Assets.xcassets */; };
+		965F8B1D2500756000835311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965F8B1B2500756000835311 /* LaunchScreen.storyboard */; };
+		965F8B2825007DE400835311 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F8B2725007DE400835311 /* GameSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2415D7A6210218323C0A0B06 /* Pods_MillionerGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionerGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		834E70CD036E17E76A3A451E /* Pods-MillionerGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionerGame.debug.xcconfig"; path = "Target Support Files/Pods-MillionerGame/Pods-MillionerGame.debug.xcconfig"; sourceTree = "<group>"; };
+		9654CDCA2506F8DC00ACCD58 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9654CDCC2506F9EF00ACCD58 /* RecordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsTableViewController.swift; sourceTree = "<group>"; };
+		9654CDCE2506FA1200ACCD58 /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsTableViewCell.swift; sourceTree = "<group>"; };
+		96569906250144CC00CDCD20 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		965699082501469F00CDCD20 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		965B6B8B251158AF0086DDEF /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		965B6B8E2511AEA90086DDEF /* RecordsCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsCaretaker.swift; sourceTree = "<group>"; };
+		965B6B902511AF1A0086DDEF /* GameSessionCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionCaretaker.swift; sourceTree = "<group>"; };
+		965F8B0D2500755F00835311 /* MillionerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MillionerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		965F8B102500755F00835311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		965F8B122500755F00835311 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		965F8B172500755F00835311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		965F8B192500756000835311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		965F8B1C2500756000835311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		965F8B1E2500756000835311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965F8B2725007DE400835311 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		EAB4FEC62FDB2FC748F2B338 /* Pods-MillionerGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionerGame.release.xcconfig"; path = "Target Support Files/Pods-MillionerGame/Pods-MillionerGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		965F8B0A2500755F00835311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171E9619411D4D0E4CF18ACD /* Pods_MillionerGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39EBA52B9B7E7E732C62C167 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				834E70CD036E17E76A3A451E /* Pods-MillionerGame.debug.xcconfig */,
+				EAB4FEC62FDB2FC748F2B338 /* Pods-MillionerGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54B60CE8BE08DC64C9A961F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2415D7A6210218323C0A0B06 /* Pods_MillionerGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9654CDC92506F8C700ACCD58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9654CDCA2506F8DC00ACCD58 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		965B6B8D2511ADFE0086DDEF /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				965B6B8E2511AEA90086DDEF /* RecordsCaretaker.swift */,
+				965B6B902511AF1A0086DDEF /* GameSessionCaretaker.swift */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		965F8B042500755F00835311 = {
+			isa = PBXGroup;
+			children = (
+				965F8B0F2500755F00835311 /* MillionerGame */,
+				965F8B0E2500755F00835311 /* Products */,
+				39EBA52B9B7E7E732C62C167 /* Pods */,
+				54B60CE8BE08DC64C9A961F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		965F8B0E2500755F00835311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965F8B0D2500755F00835311 /* MillionerGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965F8B0F2500755F00835311 /* MillionerGame */ = {
+			isa = PBXGroup;
+			children = (
+				965F8B24250078BD00835311 /* Game */,
+				965F8B102500755F00835311 /* AppDelegate.swift */,
+				965F8B122500755F00835311 /* SceneDelegate.swift */,
+				965F8B162500755F00835311 /* Main.storyboard */,
+				965F8B192500756000835311 /* Assets.xcassets */,
+				965F8B1B2500756000835311 /* LaunchScreen.storyboard */,
+				965F8B1E2500756000835311 /* Info.plist */,
+			);
+			path = MillionerGame;
+			sourceTree = "<group>";
+		};
+		965F8B24250078BD00835311 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				965B6B8D2511ADFE0086DDEF /* Memento */,
+				9654CDC92506F8C700ACCD58 /* Models */,
+				965F8B25250078CA00835311 /* Records */,
+				965F8B2725007DE400835311 /* GameSession.swift */,
+				96569906250144CC00CDCD20 /* Game.swift */,
+				965699082501469F00CDCD20 /* GameViewController.swift */,
+				965B6B8B251158AF0086DDEF /* StartScreenViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		965F8B25250078CA00835311 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				9654CDCC2506F9EF00ACCD58 /* RecordsTableViewController.swift */,
+				9654CDCE2506FA1200ACCD58 /* RecordsTableViewCell.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965F8B0C2500755F00835311 /* MillionerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965F8B212500756000835311 /* Build configuration list for PBXNativeTarget "MillionerGame" */;
+			buildPhases = (
+				8950C6158317E3C1776E7105 /* [CP] Check Pods Manifest.lock */,
+				965F8B092500755F00835311 /* Sources */,
+				965F8B0A2500755F00835311 /* Frameworks */,
+				965F8B0B2500755F00835311 /* Resources */,
+				67D81B09D48DC8D78BBBD3CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MillionerGame;
+			productName = MillionerGame;
+			productReference = 965F8B0D2500755F00835311 /* MillionerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965F8B052500755F00835311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Alexander Mink";
+				TargetAttributes = {
+					965F8B0C2500755F00835311 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 965F8B082500755F00835311 /* Build configuration list for PBXProject "MillionerGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 965F8B042500755F00835311;
+			productRefGroup = 965F8B0E2500755F00835311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965F8B0C2500755F00835311 /* MillionerGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		965F8B0B2500755F00835311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965F8B1D2500756000835311 /* LaunchScreen.storyboard in Resources */,
+				965F8B1A2500756000835311 /* Assets.xcassets in Resources */,
+				965F8B182500755F00835311 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67D81B09D48DC8D78BBBD3CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MillionerGame/Pods-MillionerGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MillionerGame/Pods-MillionerGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MillionerGame/Pods-MillionerGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8950C6158317E3C1776E7105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MillionerGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		965F8B092500755F00835311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9654CDCD2506F9EF00ACCD58 /* RecordsTableViewController.swift in Sources */,
+				96569907250144CC00CDCD20 /* Game.swift in Sources */,
+				965F8B112500755F00835311 /* AppDelegate.swift in Sources */,
+				965F8B2825007DE400835311 /* GameSession.swift in Sources */,
+				965699092501469F00CDCD20 /* GameViewController.swift in Sources */,
+				965B6B912511AF1A0086DDEF /* GameSessionCaretaker.swift in Sources */,
+				9654CDCF2506FA1200ACCD58 /* RecordsTableViewCell.swift in Sources */,
+				9654CDCB2506F8DC00ACCD58 /* Question.swift in Sources */,
+				965F8B132500755F00835311 /* SceneDelegate.swift in Sources */,
+				965B6B8F2511AEA90086DDEF /* RecordsCaretaker.swift in Sources */,
+				965B6B8C251158AF0086DDEF /* StartScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		965F8B162500755F00835311 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965F8B172500755F00835311 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		965F8B1B2500756000835311 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965F8B1C2500756000835311 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		965F8B1F2500756000835311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		965F8B202500756000835311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		965F8B222500756000835311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834E70CD036E17E76A3A451E /* Pods-MillionerGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MillionerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GoldenCrown.MillionerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		965F8B232500756000835311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB4FEC62FDB2FC748F2B338 /* Pods-MillionerGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MillionerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GoldenCrown.MillionerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		965F8B082500755F00835311 /* Build configuration list for PBXProject "MillionerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965F8B1F2500756000835311 /* Debug */,
+				965F8B202500756000835311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965F8B212500756000835311 /* Build configuration list for PBXNativeTarget "MillionerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965F8B222500756000835311 /* Debug */,
+				965F8B232500756000835311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965F8B052500755F00835311 /* Project object */;
+}
